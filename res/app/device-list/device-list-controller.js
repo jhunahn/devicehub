@@ -279,7 +279,7 @@ module.exports = function DeviceListCtrl(
   if (name) {
     GenericModalService.open({
       // eslint-disable-next-line max-len
-      message: 'Перед использованием необходимо обязательно ознакомиться с правилами использования!'
+      message: 'Before using, it is essential to familiarize yourself with the terms of use!'
       , type: 'Warning'
       , size: 'lg'
       , cancel: false
