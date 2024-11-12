@@ -28,8 +28,7 @@ module.exports = function DeviceControlCtrl($scope, DeviceService, GroupService,
 
     $scope.kickDevice = function(device) {
         GenericModalService.open({
-             
-            message: 'Вы уверены, что хотите освободить девайс? Девайс будет очищен перед возвращением в список устройств'
+            message: 'Are you sure you want to release the device? The device will be cleared before being returned to the device list.'
             , type: 'Warning'
             , size: 'lg'
             , cancel: true
