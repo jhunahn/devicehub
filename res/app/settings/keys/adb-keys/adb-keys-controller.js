@@ -8,7 +8,7 @@ module.exports =
 
       $scope.removeKey = function(key) {
           GenericModalService.open({
-              message: 'Вы уверены, что хотите удалить ADB ключ?'
+              message: 'Are you sure you want to delete the ADB key?'
               , type: 'Warning'
               , size: 'lg'
               , cancel: true

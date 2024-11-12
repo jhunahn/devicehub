@@ -279,8 +279,7 @@ module.exports = function DeviceListCtrl(
     let name = params.get('need_accept')
     if (name) {
         GenericModalService.open({
-             
-            message: 'Перед использованием необходимо обязательно ознакомиться с правилами использования!'
+            message: 'Before using, it is essential to familiarize yourself with the terms of use!'
             , type: 'Warning'
             , size: 'lg'
             , cancel: false

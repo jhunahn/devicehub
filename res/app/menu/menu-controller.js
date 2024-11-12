@@ -47,7 +47,7 @@ module.exports = function MenuCtrl(
             let authUrl = response.data.authUrl
             if (authUrl.includes('openid')) {
                 GenericModalService.open({
-                    message: 'Вы авторизованы через способ, когда вход происходит автоматически'
+                    message: 'You are authorized through a method where login happens automatically'
                     , type: 'Warning'
                     , size: 'lg'
                 })
