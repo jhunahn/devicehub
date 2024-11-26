@@ -1,12 +1,12 @@
 openapi: 3.0.1
 info:
-  title: Smartphone Test Farm
+  title: DeviceHub - Smart devices Test Farm
   description: Control and manages real Smartphone devices from browser and restful
     apis
   contact:
-    name: STF Team
-    url: http://openstf.io/
-    email: contact@openstf.io
+    name:  Jihun Ahn
+    url: https://pierrot.icu/
+    email: jhun.ahnn@gmail.com
   license:
     name: Apache-2.0
     url: http://www.apache.org/licenses/LICENSE-2.0

@@ -34,6 +34,7 @@ services:
       - devicehub-storage-plugin-image
       - devicehub-api
       - devicehub-auth
+      - devicehub-swagger
     restart: unless-stopped
   mongo1:
     <<: *mongodb
@@ -212,6 +213,16 @@ services:
       devicehub-migrate:
         condition: service_completed_successfully
     restart: unless-stopped
+  devicehub-swagger:
+    image: swaggerapi/swagger-ui:latest
+    environment:
+      URLS_PRIMARY_NAME: agent
+      URLS: |
+        [{ url: '${STF_URL}/api/v1/scheme', name: 'agent' }]
+    restart: unless-stopped
+    depends_on:
+      devicehub-migrate:
+        condition: service_completed_successfully
 
 volumes:
   devicehub-db-volume:
