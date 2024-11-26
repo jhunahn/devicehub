@@ -2,16 +2,16 @@
   "swagger": "2.0",
   "info": {
     "version": "2.3.0",
-    "title": "Smartphone Test Farm",
+    "title": "DeviceHub - Smart devices Test Farm",
     "description": "Control and manages real Smartphone devices from browser and restful apis",
     "license": {
       "name": "Apache-2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     },
     "contact": {
-      "name": "STF Team",
-      "email": "contact@openstf.io",
-      "url": "http://openstf.io/"
+      "name": "Jihun Ahn",
+      "email": "jhun.ahnn@gmail.com",
+      "url": "https://pierrot.icu/"
     }
   },
   "basePath": "/api/v1",
